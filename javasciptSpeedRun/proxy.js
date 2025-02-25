@@ -38,3 +38,5 @@ arr = [1, 2, 3, 4, 5];
 let proxyarr = negativeIndex(arr);
 proxyarr[-1] = 100;
 console.log(proxyarr);
+
+//array[index] index is internally converted into string
